@@ -1,0 +1,27 @@
+[
+  {
+    "Id": "e337bcff-e070-45b2-93a3-61409686ac56",
+    "Name": "Milk",
+    "Price": 10000.0
+  },
+  {
+    "Id": "c7e012e1-2cda-4428-bfef-77fefca6f9ea",
+    "Name": "Chocolate",
+    "Price": 45000.0
+  },
+  {
+    "Id": "fe8096e8-cf70-4a3e-b4a8-087b585eae17",
+    "Name": "Coca Cola",
+    "Price": 12000.0
+  },
+  {
+    "Id": "91da7a5f-6b7c-4925-9a32-e783fcbc41d8",
+    "Name": "Bread",
+    "Price": 4500.0
+  },
+  {
+    "Id": "334eff02-cc7e-423c-9c75-19ac586c17f4",
+    "Name": "Banana",
+    "Price": 21000.0
+  }
+]
