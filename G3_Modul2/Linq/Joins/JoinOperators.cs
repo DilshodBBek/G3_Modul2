@@ -43,6 +43,7 @@ public class JoinOperators
 
         //Add for git ignore test
 
+
         //var GroupJoinMS = Department.GetAllDepartments() //Outer Data Source i.e. Departments
         //                    .GroupJoin(Employee.GetAllEmployees(), //Inner Data Source
         //                                dept => dept.ID, //Outer Key Selector  i.e. the Common Property
