@@ -13,6 +13,7 @@
             };
             Product a = products[0];
             Product b = products[1];
+
             Product c = products[2];
             
           

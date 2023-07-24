@@ -2,6 +2,17 @@
 
 namespace G3_Modul2.Linq.SetOperators;
 
+namespace G3_Modul2.Linq.SetOperators
+{
+    public class MyComparer : IEqualityComparer<string>, IComparer<string>
+    {
+        public int Compare(string? x, string? y)
+        {
+
+            return x.Equals(y, StringComparison.OrdinalIgnoreCase) ? 0 : 1;
+
+
+        }
 public class MyComparer : IEqualityComparer<string>, IComparer<string>
 {
     public int Compare(string? x, string? y)
