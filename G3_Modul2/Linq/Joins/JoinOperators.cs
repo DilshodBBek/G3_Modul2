@@ -7,14 +7,14 @@ public class JoinOperators
         var students = Student.GetAllStudents();
         var subjects = Subject.GetAllSubjects();
 
-        var studentSubjects = from student in students
-                              select new
-                              {
-                                  student.Name,
-                                  Subjects = from subject in subjects
-                                             where student.Subjects.Contains(subject.ID)
-                                             select subject.SubjectName
-                              };
+        //var studentSubjects = from student in students
+        //                      select new
+        //                      {
+        //                          student.Name,
+        //                          Subjects = from subject in subjects
+        //                                     where student.Subjects.Contains(subject.ID)
+        //                                     select subject.SubjectName
+        //                      };
 
         //var CrossJoinResult = from student in Student.GetAllStudents() //First Data Source
         //                      from studentSubjectId in student.Subjects 
@@ -29,17 +29,17 @@ public class JoinOperators
         //                          studentSubject
         //                      };
         //Accessing the Elements using For Each Loop
-        foreach (var student in studentSubjects)
-        {
-            Console.WriteLine($"Name: {student.Name}");
-            Console.WriteLine("Subjects: ");
-            foreach (var subject in student.Subjects)
-            {
-                Console.WriteLine(subject);
-            }
-            Console.WriteLine();
-        }
-        Console.ReadLine();
+        //foreach (var student in studentSubjects)
+        //{
+        //    Console.WriteLine($"Name: {student.Name}");
+        //    Console.WriteLine("Subjects: ");
+        //    foreach (var subject in student.Subjects)
+        //    {
+        //        Console.WriteLine(subject);
+        //    }
+        //    Console.WriteLine();
+        //}
+        //Console.ReadLine();
 
         //Add for git ignore test
 
